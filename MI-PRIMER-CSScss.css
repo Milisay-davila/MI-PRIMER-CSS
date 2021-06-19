@@ -1,0 +1,1836 @@
+<html>
+  <center>
+<head>
+  <h1>MI PRIMER CSS</h1>
+</head>
+<p style="color:white; background-color:gray;">
+  Este es un ejemplo de estilo en línea. 
+</p>
+<head>
+  <style>
+  p {
+     color:black;
+     background-color:white(0, 0, 0);
+  }
+  </style>
+</head>
+<body>
+  <p>No hay un sustituto para el trabajo duro </p>
+  <p>No hay un sustituto para el trabajo duro</p>
+</body>
+<head>
+  <link rel="stylesheet" href="https://sites.google.com/misena.edu.co/uniteserver/iniciohttps://sites.google.com/misena.edu.co/uniteserver/inicio.css">
+</head>
+<body>
+  <p>Esto es un primer parrafo.</p>
+  <p>Esto es un segundo parrafo. </p>
+  <p>Esto es un tercer parrafo </p>
+</body>
+<head>
+  <style>
+
+h1 {color:blue;}
+/*Esto es un comentario*/
+p {
+     color:black;
+     font-size: 130%;
+  }
+  #intro{
+    color:white
+    background-color: gray;
+  }
+  .first{font-size: 200%;}
+  #intro .first em{
+    color:pink;
+    background: -color:gray;
+  }
+  </style>
+  </head>
+<body>
+  <p class="serif">
+    Este es un párrafo que se muestra en fuente serif.
+</p>
+<p class="sansserif">
+  Este es un párrafo que se muestra en sans-serif
+</p> 
+<p class="monospace">
+  Este es un párrafo que se muestra en fuente monoespaciada.
+</p> 
+<p class="cursive">
+  Este es un párrafo que se muestra en letra cursivant.
+</p> 
+<p class="fantasy">
+  Este es un párrafo que se muestra en letra font.
+</p> 
+<p class="small">
+   Paragraph text set to be small
+</p>
+<p class="medium">
+   Paragraph text set to be medium
+</p>
+<p class="large">
+   Paragraph text set to be large
+</p>
+<p class="xlarge">
+   Paragraph text set to be very large
+</p>
+</body>
+<head>
+  <style>
+p.small{
+    font-size:small;
+    Compensar es una EPS
+  }
+  p.medium{
+    font-size:medium;
+    Letra mediana
+  }
+  p.large{
+    font-size:large;
+    Letra grande
+  }
+</style>
+</head>
+<head>
+  <style>
+  <p.xlarge{
+    font-size:xlarge;
+  }
+  h1{
+    font-size:20px;
+  }
+  h1{
+    font-size:1.25em;
+  }
+  <p class="italic">Este es un parrafo en italic style.</p>
+  p.italic{
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+  <p class="normal">Este parrafo es normal.</p>
+<p class="italic">Este parrafo es italic.</p>
+<p class="oblique">Este parrafo oblique.</p>
+</body>
+<head>
+  <style>
+  p.normal{
+    font-style:normal;
+  }
+  p.oblique{
+    font-style:oblique;
+  }
+</style>
+</head>
+<body>
+  <p class="light">Este es una fuente con un "lighter" weight.</p>
+<p class="bold">Este es una fuente con un "bold" weight.</p>
+<p class="bolder">Este es una fuente con un "bolder" weight.</p>
+<p class="thicker">Este es una fuente con un "700" weight.</p>
+</body>
+<head>
+  <style>
+p.light{
+  font-weight:lighter;
+}
+p.bold{
+  font-weight:bold;
+}
+p.bolder{
+  font-weight:bolder;
+}
+p.thicker{
+  font-weight:700;
+}
+</style>
+</head>
+
+<p class="normal">Variante de fuente de párrafo establecida en normal</p>
+<p class="small">Variante de fuente de párrafo establecida en normal. small-caps.</p>
+
+<head>
+  <style>
+p.normal{
+  font-variant:normal;
+}
+p.small{
+  font-variant:small-caps;
+}
+<p class="example">El texto dentro del párrafo es verde.</p>
+p.example{
+  color:green;
+}
+<h1>Este es un encabezado</h1>
+<p class="example">Este es un parrafo</p>
+h1{
+  color:#0000FF;
+}
+p.example{
+  color:rgb(255,0,0);
+}
+</style>
+</head>
+
+<p class="left">Este párrafo está alineado con <strong>left.</strong></p>
+<p class="right">Este párrafo está alineado con <strong>right.</strong></p>
+<p class="center">Este párrafo está alineado con <strong>center.</strong></p>
+
+<head>
+  <style>
+p.left{
+  text-align:left;
+}
+p.right{
+  text-align: right;
+}
+p.center{
+  text-align: center;
+}
+</style>
+</head>
+
+<table border="1" cellpadding="2" cellspacing="0" style="height: 150px;">
+  <tr>
+     <td class="top">Salud</td>
+     <td class="middle">Deporte</td>
+     <td class="bottom">Subsidio</td>
+  </tr>
+</table>
+<head>
+  <style>
+    td.top{
+      vertical-align: top;
+    }
+    td.middle{
+      vertical-align:middle;
+    }
+    td.bottom{
+      vertical-align:bottom;
+    }
+  </style>
+</head>
+<body>
+  <p> Esto es un<span class="baseline">Texto en líneat</span> ejemplo.</p>
+<p>Esto es un<span class="sub">Texto de sublínea</span> ejemplo.</p>
+<p> Esto es un <span class="super">Texto de superlínea</span> ejemplo.</p>
+<p> Esto es un <span class="pixel">pixel</span> ejemplo.</p>
+</body>
+<head>
+  <style>
+    span.baseline{
+      vertical-align:baseline;
+    }
+    span.sub{
+      vertical-align:sub;
+    }
+    span.super{
+      vertical-align:super;
+    }
+    sapn.pixel{
+      vertical-align: -10px;
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="paragraph">
+    Este texto está alineado en el medio
+  </div>
+</div>
+</body>
+<head>
+  <style>
+    .main{
+      height:150;width:400px;
+      background-color:lightcoral;
+      display:inline-table;
+    }
+    .paragraph{
+      display:table-cell;
+      vertical-align:middle;
+    }
+
+  </style>
+</head>
+
+<body>
+  <p class="none">Este es el estilo predeterminado del texto.</p>
+<p class="inherit">Este texto hereda la decoración del padre.</p>
+<p class="overline">Este es un texto subrayado.</p>
+<p class="underline">Este es texto subrayado.</p>
+<p class="line-through">Este es un texto con líneas.</p>
+</body>
+<head>
+  <style>
+    p.none{
+      text-decoration:none;
+    }
+    p.inherit{
+      text-decoration:inherit;
+    }
+    p.overline{
+      text-decoration:overline;
+    }
+    p.underline{
+      text-decoration:underline;
+    }
+    p.line-through{
+      text-decoration:line-through;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    p.blink{
+      text-decoration:blink; 
+    }
+  </style>
+</head>
+<body>
+  <p>This is an example of 
+    <strong> Guion de texto </strong> propiedad.r
+    La primera línea de nuestro texto está sangrada a la derecha en 60px.r
+    Además de los píxeles, también puede utilizar otras unidades de medida,r
+    como pt, cm, em, etc. </p>
+</body>
+<head>
+  <style>
+    p{
+      text-indent:60px;
+    }
+  </style>
+</head>
+<body>
+  <h1>COMPENSAR</h1>
+</body>
+<head>
+  <style>
+    h1{
+      color:lightsalmon;
+      font:size: 30pt;
+      text-shadow: 5px 2px 4px grey;
+    }
+  </style>
+</head>
+<body>
+  <h1>COMPENSAR</h1>
+</body>
+<head>
+  <style>
+    h1{
+      font-size: 20pt;
+      text-shadow:rgba(0,0,255,1) -1px -2px 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <p class="capitalize">
+    es una caja de compensación familiar colombiana, con sede en Bogotá, ofrece servicios de salud a través de su Entidad promotora de salud.
+</p>
+</body>
+<head>
+  <style>
+    p.capitalize{
+      text-transform:capitalize;
+    }
+  </style>
+</head>
+<body>
+  <p class="uppercase">Este valor transforma todos los caracteres a mayúsculas.</p>
+<p class="lowercase">Este valor transforma todos los caracteres a minúsculas.</p>
+</body>
+<head>
+  <style>
+    p.uppercase{
+      text-transform:uppercase;
+    }
+    p.lowercase{
+      text-transform:lowercase;
+    }
+  </style>
+</head>
+<body>
+
+</body>
+<p class="normal">Este párrafo no tiene un espaciado adicional entre letras.</p>
+<p class="positive ">Este párrafo tiene 4 píxeles de espacio entre letras.</p>
+<head>
+  <style>
+    p.normal{
+      letter-spacing:normal;
+    }
+    p.positive{
+      letter-spacing:4px;
+    }
+  </style>
+</head>
+<body>
+  <p class="positive">Este párrafo tiene 4 píxeles de espacio entre letras.</p>
+<p class="negative">Este párrafo está espaciado entre letras a -1.5px</p>
+</body>
+<head>
+  <style>
+    p.positive{
+      letter-spacing: 4px
+    }
+    p.negative{
+      letter-spacing: -1.5px
+    }
+  </style>
+</head>
+<body>
+  <p class="normal">A este párrafo no se le aplica ningún espacio adicional entre palabras.</p>
+<p class="px">Este párrafo tiene un espacio entre palabras de 30 píxeles.</p>
+</body>
+<head>
+  <style>
+    p.normal{
+      word-spacing: normal;
+    }
+    p.px{
+      word-spacing: 30px;
+    }
+
+  </style>
+</head>
+<body>
+  <p class="positive">Este párrafo tiene un espacio entre palabras de 20 píxeles.</p>
+<p class="negative">Este párrafo tiene un espacio entre palabras de -5px.</p>
+</body>
+<head>
+  <style>
+    p.positive{
+      word-spacing:20px;
+    }
+    p.negative{
+      word-spacing:-5px;
+    }
+  </style>
+</head>
+<body>
+  Este párrafo tiene varios espacios 
+Un salto de línea, pero será ignorado, ya que usamos el valor nowrap.
+</body>
+<head>
+  <style>
+    p{
+      white-space:nowrap;
+    }
+  </style>
+</head>
+<body>
+  <p class="pre"> 
+    En el marcado tenemos varios espacios 
+      y un salto de línea.
+    </p>
+    <p class="preline"> 
+      En el marcado tenemos varios espacios
+y un salto de línea, pero en el resultado se ignoran varios espacios.
+    </p>
+    <p class="prewrap"> 
+      En el marcado tenemos múltiples
+      espacios y un salto de línea.
+    </p>
+</body>
+<head>
+  <style>
+    p.pre{
+white-space: pre;
+    }
+    p.preline{
+      white-space:pre-line;
+    }
+    p.prewrap{
+      white-space:pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <p>Este es un ejemplo de borde sólido.</p>
+</body>
+<head>
+  <style>
+    p{
+      padding:10px;
+      border:5px solid palevioletred;
+    }
+  </style>
+</head>
+<body>
+  <p class="first">
+    El ancho del borde de este párrafo se establece en 2px.
+</p>
+<p class="second">
+  El ancho del borde de este párrafo se establece en 5px.
+</p>
+</body>
+<head>
+  <style>
+    p.first{
+      padding:1opx;
+      border-style:solid;
+      border-width:2px;
+    }
+    p.second{
+      padding:10px;
+      border-style:solid;
+      border-width:5px;
+    }
+  </style>
+</head>
+<body>
+  <p class="first">
+    El color del borde se ha creado utilizando<strong>color name.</strong>
+ </p>
+ <p class="second">
+  El color del borde se ha creado utilizando <strong>Hex values.</strong> 
+ </p>
+ <p class="third">
+  El color del borde se ha creado utilizando <strong>RGB values.</strong> 
+ </p>
+</body>
+<head>
+  <style>
+    p.first{
+      padding:10px;
+      border-style:solid;
+      border-width:2px;
+      border-color:purple;
+    }
+    p.second{
+      padding:20px;
+      border-style:solid;
+      border-width:2px;
+      border-color:#FF47DE;
+    }
+    p.third{
+      padding:10px;
+      border-style:solid;
+      border-width:2px;
+      border-color:rgba(0,0,255,1)
+    }
+  </style>
+</head>
+<body>
+  <p class="none">Este párrafo no tiene borde.</p>
+<p class="dotted">Este es un borde punteado.</p>
+<p class="dashed">This is a dotted border</p>
+<p class="double">Este es un borde doble.</p>
+<p class="groove">Este es un borde ranurado.</p>
+<p class="ridge">Este es un borde estriado.</p>
+<p class="inset">Este es un borde insertado.</p>
+<p class="outset">Esta es una frontera inicial.</p>
+<p class="hidden">Este es un borde oculto.</p>
+</body>
+<head>
+  <style>
+    p.none{border-style:none;}
+    p.dotted{border-style:dotted;}
+    p.dashed{border-style:dashed;}
+    p.double{border-style:double;}
+    p.groove{border-style:groove;}
+    p.ridge{border-style:ridge;}
+    p.inset{border-style:inset;}
+    p.outset{border-style:outset;}
+    p.hidden{border-style:hidden;}
+
+  </style>
+</head>
+<body>
+  <div>El ancho y alto total de este elemento es 100px.</div>
+</body>
+<head>
+  <style>
+    div{
+      border:5px solid violet;
+      width:90px;
+      height:90px;
+    }
+  </style>
+</head>
+<body>
+  <div>El ancho total de este elemento es <strong>100%</strong> Y la altura total es<strong>100px</strong> .</div>
+</body>
+<head>
+  <style>
+    div{
+      border:5px solid powderblue;
+      width:100%;
+      height:90px;
+    }
+  </style>
+</head>
+<body>
+  <p class="first">El <strong>minimum height </strong> de este párrafo se establece en 100px.</p>
+<p class="second">El<strong> maximum width </strong> de este párrafo se establece en 100px.</p>
+</body>
+<head>
+  <style>
+    p.first{
+      border:5px solid orange;
+      min-height:100px;
+    }
+    p.second{
+      border:5px solid orange;
+      max-width:100px;
+    }
+  </style>
+</head>
+<body>
+  <p>El color de fondo de esta página se establece en blanchedalmond.</p>
+</body>
+<head>
+  <style>
+    body{
+      background-color:blanchedalmond;
+    }
+  </style>
+</head>
+<body>
+  <h1> Este es un encabezado</h1>
+  <p>Esto es un parrafo</p>
+</body>
+<head>
+  <style>
+    body{
+      background-color:#C0C0C0;
+    }
+    h1{
+      background-color:rgb(135,206,235)
+    }
+    p{
+      background-color: blanchedalmond;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    body{
+      background-image: url("planeta-en-lava-abstracto_3840x2160_xtrafondos.com.jpg")
+      background-color:#e9e9e9;
+    }
+  </style>
+</head>
+<body>
+  <p>Este párrafo tiene una imagen de fondo.</p>
+</body>
+<head>
+  <style>
+    p{
+      padding:30px;
+      background-image: url("montanas-con-planeta-de-fondo-neblina_5120x2880_xtrafondos.com.jpg");
+      color:white;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    body{
+      background-image:url("planeta-en-lava-abstracto_3840x2160_xtrafondos.com.jpg");
+      background-repeat: repeat-x;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    body{
+      background-image: ur("planeta-en-lava-abstracto_3840x2160_xtrafondos.com.jpg");
+      background-repeat: repeat-y;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    body{
+      background-image: url("UniteServer (2).png");
+      background-repeat: repeat-x;
+    }
+    p{
+      background-image: url("UniteServer (2).png");
+      background-repeat: inherit;
+      margin-top: 100px;
+      padding: 40px
+    }
+  </style>
+</head>
+<head>
+  <style>
+    body{
+      background-image: url("montanas-con-planeta-de-fondo-neblina_5120x2880_xtrafondos.com.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    body{
+      background-image: url("montanas-con-planeta-de-fondo-neblina_5120x2880_xtrafondos.com.jpg");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+    }
+  </style>
+</head>
+<body>
+  <ol class="lower-alpha">
+    <li>Salud</li>
+    <li>Subsidio</li>
+    <li>Deporte</li>
+ </ol>
+ <ul class="circle">
+  <li>Salud</li>
+  <li>Subsidio</li>
+  <li>Deporte</li>
+ </ul>
+ <ul class="square">
+  <li>Salud</li>
+  <li>Subsidio</li>
+  <li>Deporte</li>
+ </ul>
+</body>
+<head>
+  <style>
+    ol.lowe-alpha{
+      list-style-type:lower-alpha;
+    }
+    ul.circle{
+      list-style-type:circle;
+    }
+    ul.square{
+      list-style-type:square;
+    }
+  </style>
+</head>
+<body>
+  <p>La siguiente lista tiene lista-estilo-posición: <strong>inside</strong>.</p>
+<ul>
+  <li>Salud</li>
+  <li>Subsidio</li>
+  <li>Deporte</li>
+</ul>
+</body>
+<head>
+  <style>
+    ul{
+      list-style-image:url("UniteServer (2).png")
+      list-style-position:inside;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    ul{
+      list-style:square outside none;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    ul{
+      list-style-type:square;
+      list-style-position: outside;
+      list-style-image:none;
+    }
+  </style>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td>Salud</td>
+      <td>Deporte</td>
+    </tr>
+    <tr>
+       <td>Subsidio</td>
+       <td>Vivienda</td>
+    </tr>
+ </table>
+</body>
+<head>
+  <style>
+    table{
+      border-collapse: separate;
+      border-spacing: 20px 40px;
+    }
+  </style>
+</head>
+<body>
+  <table border="1">
+    <caption>Some of Our Courses</caption>
+    <tr>
+      <th>Servicios</th>
+      <th>Personas</th>
+    </tr>
+    <tr>
+      <td>Salud</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>Deportes</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>Subsidio</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>Vivienda</td>
+    </tr>
+    </table>
+</body>
+<head>
+  <style>
+    caption{
+      caption-side:top;
+    }
+  </style>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td>Salud</td>
+      <td>Subsidio</td>
+    </tr>
+    <tr>
+      <td>Vivienda</td>
+      <td></td>
+    </tr>
+  </table>
+</body>
+<head>
+  <style>
+    table{
+      border-collapse: separate;
+      empty-cells: hide;
+    }
+  </style>
+</head>
+</html>
+<body>
+  <p>El diseño de la tabla se establece en <strong>auto</strong></p>
+<table class="auto">
+  <tr>
+    <td width=“10%">500.000.000.000.000</td>
+    <td width="90%">20.000</td>
+  </tr>
+</table>
+
+<p>El diseño de la tabla se establece en <strong>fixed</strong></p>
+<table class="fixed">
+  <tr>
+    <td width="10%">500.000.000.000.000</td>
+    <td width="90%">20.000</td>
+  </tr>
+</table>
+</body>
+<head>
+  <style>
+    table{
+      border-collapse: separate;
+      width:100%;
+      border:1px solid gray;
+    }
+    td{
+      border:1px solid gray;
+    }
+    table.auto{
+      table-layout: auto;
+    }
+    table.fixed{
+      table-layout: fixed;
+    }
+  </style>
+</head>
+<body>
+  <p><a href="https://corporativo.compensar.com" target="_blank">
+    Este enlace está suspendido cuando pasamos el mouse sobre él.
+ </a></p>
+</body>
+<head>
+  <style>
+    a:hover{
+      color:lightblue;
+    }
+  </style>
+</head>
+<body>
+  <p><a href="https://corporativo.compensar.com" target="_blank">
+    This link has no underline.
+ </a></p>
+</body>
+<head>
+  <style>
+    a:link{
+      text-decoration:none; 
+    }
+  </style>
+</head>
+<body>
+  <span style="cursor.help;">
+    Necesitas ayuda?
+  </span>
+</body>
+<body>
+  <span>Primer párrafo.</span>
+<span>Segundo párrafo</span>
+<span>Tercer parráfo.</span>
+<span>Cuarto parráfo.</span>
+<span>Quinto parráfo.</span>
+</body>
+<head>
+  <style>
+    span{
+      display:block;
+    }
+    p{
+      display:inline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Este texto no se mostrará, ya que establecemos el valor en ninguno</h1>
+<p>El título de este párrafo no se muestra, ya que establecemos el valor en ninguno.</p>
+</body>
+<head>
+  <style>
+    h1{
+      display:none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Este es un encabezado</h1>
+<div class="hidden">
+Este texto no se mostrará en el navegador.
+</div>
+<p>
+ 
+El espacio sobre este párrafo está vacío porquer
+la visibilidad del elemento div se establece en oculta.
+</p>
+</body>
+<head>
+  <style>
+    div.hidden{
+      visibility: :hidden;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.hidden{
+      display:none;
+    }
+  </style>
+</head>
+<body>
+  <p>Párrafo sin posición.</p>
+<p>Párrafo sin posición.</p>
+<p>Párrafo sin posición.</p>
+<p>Párrafo sin posición..</p>
+<p>Párrafo sin posición.</p>
+<p class="position_static">Este párrafo tiene una posición estática.</p>
+</body>
+<head>
+  <style>
+    p.position_static{
+      position:static;
+      top:30px;
+      right:5px;
+      color:lightcoral;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    p.position_fixed{
+      position:fixed;
+      top:30px;
+      right:5px;
+      color:lightcoral;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    p{
+      width:350px;
+      border:1px black solid;
+      position:fixed;
+    }
+    span{
+      background:lightpink;
+      color:black;
+      position:relative;
+      top:150px;
+      left:50px;
+    }
+  </style>
+</head>
+<body>
+  <p><img src="UniteServer (2).png" />
+    Este párrafo tiene una imagen que flota al <strong>right.</strong> 
+    Es muy recomendable agregar un margen a las imágenes para que el textor
+No te acerques demasiado a la imagen. Si desea que su texto se lea fácilmente,
+siempre debe agregar algunos píxeles entre palabras y bordes, imágenes,
+y otro contenido.
+    </p>
+</body>
+<head>
+  <style>
+    img{
+      float:right;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    img{
+      float:left;
+      width:120px;
+      margin-right:10px;
+    }
+    p{
+      width: 120px;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  Este párrafo está por encima del elemento divr
+y no se ve afectado por la propiedad del derecho flotante.
+<br /><br />
+<div class="floating">
+   <img src="UniteServer (2).png" />
+</div>
+Este párrafo viene después del elemento divr
+y se ve afectado por la propiedad del derecho flotante 
+<br /><br />
+Este párrafo también viene después del elemento divr
+Y se ve afectado por la propiedad del derecho flotante.
+<br /> <br />
+</body>
+<head>
+  <style>
+    .floating{
+      float:right;
+    }
+  </style>
+</head>
+<body>
+
+  Este párrafo está por encima del elemento divr
+  y no se ve afectado por la propiedad del derecho flotante.
+<br/><br/>
+<div class="floating">
+   <img src="UniteServer (2).png" />
+</div>
+Este párrafo viene después del elemento divr
+y se ve afectado por la propiedad del derecho flotante.
+<br/><br class="clearing"/>
+Este párrafo está fuera del grupo flotanter
+y no se ve afectado por la propiedad del derecho flotante.
+<br/> <br/>
+</body>
+<head>
+  <style>
+    .floating{
+      float:right;
+    }
+    .clearing{
+      clear:both;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Este texto está dentro del elemento div, que tiene un azul
+    color de fondo y flota a la izquierda. Establecemos un específico
+    alto y ancho para el elemento div, y como puede ver,
+    el contenido no cabe.
+    </div>
+
+</body>
+<head>
+  <style>
+    div{
+      width:150px;
+      height:150px;
+      background-color:lightgrey;
+      float:left;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width:150px;
+      height:150px;
+      background-color: lightseagreen;
+      float:left;
+      overflow:scroll;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width:150px;
+      height:150px;
+      background-color: lightskyblue;
+      float:left;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .blue{
+      background-color: magenta;
+      margin-bottom:15px;
+      width:120px;
+      height:120px;
+      color:mediumpurple;
+    }
+    .red{
+      background-color:mintcream;
+      position:relative;
+      width:120px;
+      height:120px;
+      color:mintcream;
+      margin-top: 50px;
+      margin-left: 50px;
+
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .blue{
+      z-index: 3;
+      position:relative;
+    }
+    .red{
+      z-index:2;
+      position:relative;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS3</h1>
+</body>
+<head>
+<style>
+   .test{
+    -webkit-borde-radius:24px;
+   }
+    
+  </style>
+</head>
+<head>
+  <style>
+    .test{
+      border-radius:20px;
+    background-color:green;
+    color:white;
+    border-radius: 0 0 20px 20px;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width:200px;
+      height:200px;
+      border-radius:100px;
+      background-color: orchid;
+      color:white;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width:300px;
+      height:100px;
+      background-color: purple;
+      box-shadow:10px 10px #888888;
+      box-shadow: -10px -10px 5px -5px #888888;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width:300px;
+      height:100px;
+      background-color: purple;
+      box-shadow: inset 10px 10px 5px #888888;
+    }
+  </style>
+</head>
+<head>
+  <style>
+     div{
+      width:300px;
+      height:100px;
+      background-color: purple;
+      box-shadow: inset 10px 10px 5px #888888,inset -10px -10px 5px #888888;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="#">CONCTACTANOS</a></li>
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">OFERTAS</a></li>
+        <li><a href="#">SERVICIO AL CLIENTE</a></li>
+    </ul>
+ </nav>
+</body>
+<head>
+  <style>
+    body{
+      background:url("UniteServer (2).png")
+    }
+    nav{
+padding: 50px o;
+min-width: 500px;
+    }
+    nav ul{
+      background: linear-gradient(90deg,
+      rgba(255,255,255,0)0%,
+      rgba(255,255,255,0.2) 25%,
+      rgba(255,255,255,0.2) 75%,
+      rgba(255,255,255,0) 100%);
+box-shadow: 0 0 25px rgba(0,0,0,0.1),
+inset 0 0 1px rgba(255,255,0.6);
+    }
+    nac ul li{
+      display:inline-block;
+    }
+    nav ul li a{
+      padding:10px;
+    color:##FFFFFF;
+    font-size:18px;
+    font-family:Arial;
+    text-decoration:none;
+    display:block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Varias sombras de texto</h1>
+</body>
+<head>
+  <style>
+    h1{
+      text-shadow: 5px 10px 2px #93968f,
+      -3px 6px 5px #58d1e3;
+
+    }
+  </style>
+</head>
+<body>
+  <div id="parent">
+    <p>Primer parrafo</p>
+    <p>Segundo parrafo</p>
+    <p>Tercer parrafo</p>
+    <p>Cuarto parrafo</p>
+ </div>
+</body>
+<head>
+  <style>
+    #parent p:first-child{
+      color:red;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    ::first-line{
+      color:#58d1e3;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    p::-moz-selection{
+      background: #FF47DE;
+      color:#fff;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    Puede insertar texto, imágenes y otros recursos usando <strong>:antes de</strong>pseudo elemento.</p>
+<p>
+  Puede insertar texto, imágenes y otros recursos usando<strong>:antes de </strong>pseudo elemento.</p>
+<p>
+  Puede insertar texto, imágenes y otros recursos usando <strong>:antes de</strong>pseudo elemento.</p>
+</body>
+<head>
+  <style>
+    ::before{
+      content:url("https://us.123rf.com/450wm/putracetol/putracetol1805/putracetol180502532/101069151-s-digital-letter-technology-logo-icon-design.jpg?ver=6")
+
+    }
+  </style>
+</head>
+<head>
+  <style>
+    p{
+      width:210px;
+      height:100px;
+      border:1px solid #000000;
+      word-wrap:normal;
+    }
+  </style>
+</head>
+<body>
+  <h1>Este es nuestro titulo</h1>
+</body>
+<head>
+  <style>
+    @font-face {
+  font-family: Delicious; 
+  src: url('Delicious-Roman.otf'); 
+} 
+@font-face { 
+  font-family: Delicious; 
+  font-weight: bold; 
+  src: url('Delicious-Bold.otf'); 
+}
+h1{
+   font-family: Delicious, sans-serif; 
+}
+@font-face { 
+   font-family: Delicious; 
+   src: url('Delicious-Roman.ttf');
+   src: url('Delicious-Roman.eot?#iefix'); 
+}
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      float:left;
+      width:300px;
+      height:100px;
+      margin:4px;
+      color:aquamarine;
+      background:-moz-linear-gradient(DeepSkyBlue,
+      Balck);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      background: -moz-linear-gradient(black,purple,white,pink);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      background: -moz-linear-gradient(purple 20%, black 30%,pink 85%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.first{
+      float:left;
+      width:300px;
+      height:100px;
+      margin:4px;
+      color:black;
+      background: -moz-linear-gradient(left,purple,white,pink);
+    }
+    div.second{
+      float:left;
+      width:300px;
+      height:100px;
+      margin:4px;
+      background: -moz-linear-gradient(bottom,purple,white,pink);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.first{
+      float:left;
+      width:300px;
+      height:100px;
+      margin:4px;
+      color:#fff;
+      background:-moz-linear-gradient(bottom left,purple,white,pink);
+    }
+    div.second{
+      float:left;
+      width:300px;
+      height:100px;
+      margin:4px;
+      color:#fff;
+      background:-moz-linear-gradient(100deg,purple,white,pink); 
+      background: -moz-repeating-linear-gradient(blue,white 20px);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      background: radial-gradient(position, shape or size, color-stops);
+    }
+
+  </style>
+</head>
+<head>
+  <style>
+    div.first{
+      height: 150px;
+      width:200px;
+      color:#fff;
+      background: -moz-radial-gradient(pink,black,purple);
+    }
+    div.second{
+      height: 150px;
+      width:200px;
+      color:#fff;
+      background: -moz-radial-gradient(circle,pink,black,purple);
+    }
+  </style>
+</head>
+<head>
+  <style>
+     div.first{
+      height: 150px;
+      width:200px;
+      color:#fff;
+      background: -moz-radial-gradient(top left,black,purple);
+     }
+     div.second{
+      height: 150px;
+      width:200px;
+      color:#fff;
+      background: -moz-radial-gradient(pink 5%,purple 15%,black 60%);
+     }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      height: 150px;
+      width:200;
+      border: 1px solid #000;
+      background: url("https://us.123rf.com/450wm/putracetol/putracetol1805/putracetol180502532/101069151-s-digital-letter-technology-logo-icon-design.jpg?ver=6") no-repeat 50% 50%;
+      background-size: 100px 100px;
+    }
+    div{
+      background-size: contain;
+    }
+    div{
+      background-size: cover;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    #first{
+      border:2px dotted balck;
+      padding:20px;
+      background:paleturquoise;
+      background-clip: padding-box;
+    }
+    #second{
+      border:2px dotted black;
+      padding: 20px;
+      background: palevioletred;
+      background-clip: content-box;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      background-image:url("https://us.123rf.com/450wm/putracetol/putracetol1805/putracetol180502532/101069151-s-digital-letter-technology-logo-icon-design.jpg?ver=6");
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      border:20px solid rgba(0,0,0,0.3);
+      -moz-background-clip: padding-box;
+      background-clip: padding-box;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width:400px;
+      height:300px;
+      background-image: url(https://us.123rf.com/450wm/putracetol/putracetol1805/putracetol180502532/101069151-s-digital-letter-technology-logo-icon-design.jpg?ver=6),
+      url(https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg);
+      background-position: right bottom, left top;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width:400px;
+      height: 300px;
+      background-image: url(https://us.123rf.com/450wm/putracetol/putracetol1805/putracetol180502532/101069151-s-digital-letter-technology-logo-icon-design.jpg?ver=6),
+      url(https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg);
+      background-position: right top,left top;
+      background-repeat: no repeat;
+
+    }
+  </style>
+</head>
+<head>
+  <style>
+    #img1{
+      opacity:1;
+    }
+    #img2{
+      opacity:0.5;
+    }
+    #img3{
+      opacity:0.25;
+    }
+  </style>
+</head>
+
+<head>
+  <style>
+    img{
+      opacity:0.5;
+      filter:alpha (opacity=50);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      transition:transform 5s ease-in;  
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width: 50px;
+      height: 50px;
+      background: #32CD32;
+      transition: width 3s;
+    }
+    div:hove{
+      width: 250px;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      transition-timing-function: cubic cubic-bezier(0,0,1,1);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width: 200px;
+      height: 100px;
+      margin-top:30px;
+      background: #32CD32; 
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.positive{
+      width: 200px;
+      height: 100px;
+      margin-top:30px;
+      background: #32CD32; 
+      transform: rotate(10deg);
+
+    }
+    div.negative{
+      width: 200px;
+      height: 100px;
+      margin-top:30px;
+      background: #32CD32; 
+      transform: rotate(-10deg);
+
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.empty-div{
+      position:relative;
+      height: 100px;
+      width: 100px;
+      margin:30px;
+      padding: 10px;
+      border: 1px solid black;
+    }
+    div.green-div{
+      padding: 50px;
+      position: absolute;
+      background-color:cornflowerblue;
+      border:1px solid white;
+      transform-origin: 25% 75%;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      padding: 50px;
+      position:absolute;
+      background-color: violet;
+      transform: translate(100px,50px);
+      transform: skew(30deg);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.first{
+      width: 200px;
+      height: 100px;
+      background-color: violet;
+      transform: scale(0.7,0.7);
+      color:white;
+    }
+    div.second{
+      margin: 60px;
+      width:200px;
+      height: 100px;
+      background-color: pink;
+      transform:scale(1.5,1.5);
+      color:plum
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      transform: rotate(45deg) translate(100px);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    @keyframes example {
+   0%  {background-color: red;}
+   50%  {background-color: yellow;}
+   70%  {background-color: blue;}
+   100% {background-color: green;}
+}
+  </style>
+</head>
+<head>
+  <style>
+    @keyframes colorchange {
+   0% {background-color: red;}
+   100% {background-color: green;}
+}
+  </style>
+</head>
+<head>
+  <style>
+    @keyframes colorchange {
+   from {background-color: red;}
+   to {background-color: green;}
+}
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      width: 100px;
+      height: 100px;
+      background-color: powderblue;
+      animation-name:colorchange;
+      animation-duration: 1s;
+    }
+    @keyframes colorchange {
+      0%{background-color: purple;}
+      50%{background-color:pink;}
+      100%{background-color:blueviolet}
+      
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      animation-name: colorchange;
+      animation-duration: 5s ;
+    }
+    @keyframes colorchange {
+      from{width: 0px;}
+      to{width: 100px;}
+      
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      animation-timing-function: linear;
+      animation-delay: 2s;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      animation-iteration-count: 5;
+      animation-iteration-count: infinite;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      animation-name: colorchange;
+      animation-duration: 3s;
+      animation-timing-function: ease-in;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: reverse;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div{
+      animation:colorchange 3s ease-in infinite reverse;
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.x{
+transform:rotateX(150deg);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    #mybox1{
+      transform: translateX(29px)
+      translateY (5em)
+      translate(-13px)
+    }
+  </style>
+</head>
+<head>
+  <style>
+    div.empty-div{
+      perspective: 100px;
+    }
+    div.green-div{
+      transform:rotateX(45deg);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .dropshadow{
+      filter:drop-shadow(5px 9px 2px blue);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:grayscale(100%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:sepia(100%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:saturate(50%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:hue-rotate(100deg);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:invert(70%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:opacity(70%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:brightness(50%);
+      filter:brightness(1.9%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:contrast(140%);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .blured{
+      filter: blur(5px);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter:blur(5px) hue-rotate(180deg);
+    }
+  </style>
+</head>
+<head>
+  <style>
+    .filtered{
+      filter: saturate(30%)drop-shadow(5px 9px 2px gray) blur (1px);
+    }
+  </style>
+</head>
+
+</center>
+</html>
